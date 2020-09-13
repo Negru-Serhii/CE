@@ -55,30 +55,31 @@
       <form action="#" method="post">
         <p>
           <input
+            class="pdata"
             type="text"
             name="FirstName"
             required
             placeholder="Введіть ваше ім'я"
           />
-        </p>
-        <p>
+
           <input
+            class="pdata"
             type="text"
             name="SecondName"
             required
             placeholder="Введіть ваше прізвище"
           />
-        </p>
-        <p>
+
           <input
+            class="pdata"
             type="tel"
             name="tel"
             required
             placeholder="Введіть ваш номер телефону"
           />
-        </p>
-        <p>
+
           <input
+            class="pdata"
             type="email"
             name="E-mail"
             required
@@ -86,12 +87,15 @@
           />
         </p>
         <h3>Cтать</h3>
-        <p><input checked type="radio" name="gender" value="male" />Ч</p>
-        <p><input type="radio" name="gender" value="female" />Ж</p>
+        <p>
+          <input checked type="radio" name="gender" value="male" />Ч
+          <input type="radio" name="gender" value="female" />Ж
+        </p>
+        <h3>Ваші побажання</h3>
         <p>
           <textarea
             name="text"
-            cols="30"
+            cols="40"
             rows="10"
             required
             placeholder="Основні цілі, які Ви бажаєте досягти!"

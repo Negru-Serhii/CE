@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../img/background-photo.jpg) no-repeat;
+  background-size: cover;
+  font-size: 1.3rem;
+  color: rgb(41, 21, 2);
+}
+.main-container {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(8, 13, 83);
+  margin: 20px auto;
+}
+table {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  margin: 20px auto;
+  padding: 15px;
+  border-collapse: collapse;
+  background-color: rgba(224, 218, 161, 0.5);
+}
+th,
+td {
+  border: 5px outset royalblue;
+}
+h2,
+h3,
+p,
+select,
+button {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+p {
+  font-size: 1.2em;
+  font-weight: 550;
+}
+.pdata {
+  line-height: 2rem;
+}
