@@ -49,3 +49,6 @@ p {
 .pdata {
   line-height: 2rem;
 }
+select {
+  font: inherit;
+}
