@@ -53,10 +53,10 @@ label {
 }
 .search input {
   float: right;
-  background-image: url(/HW-3-CSS/img/search-icon.svg);
+  background-image: url(/HW-3-CSS/img/search-icon.png);
   background-repeat: no-repeat;
   background-position: 14px;
-  background-size: 5%;
+  background-size: 13%;
   width: 100%;
   height: 30px;
   background-color: #444444;
