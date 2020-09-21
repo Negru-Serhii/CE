@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(
+      90deg,
+      rgba(213, 32, 71, 0.8) 0%,
+      rgba(238, 61, 27, 0.8) 100%
+    ),
+    url(../img/bg.jpg), no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  color: #fff;
+}
+.logo {
+  display: inline-flex;
+  font-size: 1.3em;
+}
+.navbar {
+  padding: 30px 60px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+}
+.logo,
+.link1,
+p,
+.sign-up-button {
+  font-weight: bold;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.ul-links {
+  display: inline-flex;
+  list-style-type: none;
+}
+li {
+  margin: 0 10px;
+}
+select {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 0 0.5em 0;
+  margin: 0 1em 0 0;
+}
+.login-button {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 20px;
+}
+main {
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+}
+h1 {
+  font-size: 5.5rem;
+  padding-top: 50px;
+}
+p {
+  font-size: 1.7em;
+  line-height: 2;
+  padding-bottom: 2em;
+}
+.sign-up-button {
+  color: #ed4c5c;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 50px;
+}
