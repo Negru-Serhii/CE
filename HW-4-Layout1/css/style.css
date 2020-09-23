@@ -26,7 +26,7 @@ body {
   align-items: center;
 }
 .logo,
-.link1,
+.overview,
 p,
 .sign-up-button {
   font-weight: bold;
@@ -42,18 +42,30 @@ a {
 li {
   margin: 0 10px;
 }
-select {
+.styled-select select {
+  background: transparent;
+  width: 70px;
+  padding: 5px;
+  font-size: 16px;
+  border: 0;
   color: #fff;
+}
+.styled-select {
+  width: 50px;
+  overflow: hidden;
+  background: url(../img/Vector.png) no-repeat right transparent;
+}
+option:checked {
   background-color: rgba(0, 0, 0, 0);
-  border: none;
-  padding: 0 0.5em 0;
-  margin: 0 1em 0 0;
+  border: 0;
 }
 .login-button {
+  display: block;
   border: 1px solid #fff;
   border-radius: 5px;
   text-align: center;
   padding: 10px 20px;
+  margin: 0 0 0 15px;
 }
 main {
   display: block;
