@@ -1,1 +1,128 @@
-font-family: "Lato", sans-serif;
+body {
+  font-family: "Lato", sans-serif;
+}
+h2 {
+  font-size: 36px;
+  margin: 0 0 60px 0;
+}
+h3 {
+  font-size: 18px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ed4c5c;
+  color: #ffffff;
+  height: 500px;
+  padding: 0 30px;
+}
+.info-text {
+  width: 445px;
+  height: 267px;
+}
+.info-apps {
+  margin-top: 45px;
+  width: 134px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  padding: 117px 30px 0;
+}
+.contact-appeal {
+  width: 445px;
+  height: 160px;
+}
+.contact-form {
+  width: 540px;
+  height: 305px;
+}
+.input,
+select {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  margin-bottom: 24px;
+}
+input {
+  border: 1px solid #333333;
+  border-radius: 6px;
+}
+.contact-name,
+.tel,
+select {
+  max-width: 540px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.first-name,
+.last-name {
+  width: 41.2%;
+  max-width: 255px;
+  height: 60px;
+  padding-left: 25px;
+}
+.first-name {
+  margin-right: 30px;
+}
+.tel {
+  height: 60px;
+  padding-left: 25px;
+}
+select {
+  width: 100%;
+  height: 60px;
+  appearance: none;
+  background: url(../img/ChevronDown.svg) 96% 50% no-repeat;
+  padding-left: 25px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+}
+.submit {
+  width: 160px;
+  height: 50px;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  background-color: #ed4c5c;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+footer {
+  /* height: 435px; */
+  background-color: #fafafa;
+  padding: 0 30px;
+  color: #101010;
+  font-size: 12px;
+  line-height: 19px;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+  line-height: 18px;
+}
+.footer-info h3 {
+  margin-bottom: 30px;
+  line-height: 22px;
+}
+.services-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+  color: #101010;
+}
+.footer-tel-email {
+  margin-bottom: 20px;
+}
+.footer-social a {
+  margin-right: 15px;
+}
+.copyright {
+  margin: 140px auto 85px;
+}
