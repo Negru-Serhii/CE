@@ -1,0 +1,73 @@
+.pseudo-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: auto;
+  margin: 100px auto;
+}
+.blocks {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border: 3px solid black;
+  border-radius: 15px;
+  color: azure;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+.pseudo-main div:nth-child(4n + 3) {
+  background-color: red;
+}
+.pseudo-main div:nth-child(2n + 22) {
+  background-color: blue;
+}
+.pseudo-main div:nth-child(21) {
+  background-color: blue;
+}
+.blocks:hover {
+  background-color: lawngreen;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: baseline;
+}
+button {
+  width: 501px;
+  height: 92px;
+  background: #44d3a8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0 45px;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: #ffffff;
+  color: #44d3a8;
+}
+.btn::before {
+  content: " ";
+  border-bottom: 2px solid #c4c4c4;
+  border-top: 2px solid #c4c4c4;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+}
+
+.btn::after {
+  content: " ";
+  border-bottom: 2px solid #c4c4c4;
+  border-top: 2px solid #c4c4c4;
+  height: 5px;
+  width: 200px;
+  margin-right: auto;
+}
