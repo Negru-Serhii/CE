@@ -21,10 +21,7 @@
 .pseudo-main div:nth-child(4n + 3) {
   background-color: red;
 }
-.pseudo-main div:nth-child(2n + 22) {
-  background-color: blue;
-}
-.pseudo-main div:nth-child(21) {
+.pseudo-main div:nth-last-child(-n + 4):not(:nth-last-child(2)) {
   background-color: blue;
 }
 .blocks:hover {
@@ -33,7 +30,6 @@
 }
 .btn {
   display: flex;
-  /* justify-content: space-around; */
   align-items: baseline;
 }
 button {
@@ -54,20 +50,17 @@ button:hover {
   background-color: #ffffff;
   color: #44d3a8;
 }
-.btn::before {
-  content: " ";
-  border-bottom: 2px solid #c4c4c4;
-  border-top: 2px solid #c4c4c4;
-  height: 5px;
-  width: 200px;
-  margin-left: auto;
-}
-
+.btn::before,
 .btn::after {
   content: " ";
   border-bottom: 2px solid #c4c4c4;
   border-top: 2px solid #c4c4c4;
   height: 5px;
   width: 200px;
+}
+.btn::before {
+  margin-left: auto;
+}
+.btn::after {
   margin-right: auto;
 }
