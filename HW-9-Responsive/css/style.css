@@ -12,7 +12,7 @@ h3 {
 }
 
 h1 {
-  font-size: 2.7rem;
+  font-size: 2.6rem;
 }
 h2 {
   font-size: 1.9rem;
@@ -45,7 +45,7 @@ header {
 }
 .header-container {
   max-width: 600px;
-  min-width: 360px;
+  min-width: 320px;
   height: 80%;
   display: flex;
   flex-direction: column;
@@ -53,8 +53,7 @@ header {
   margin-left: 145px;
 }
 .header-container h1 {
-  max-width: 560px;
-  min-width: 320px;
+  width: 320px;
 }
 .header-container a {
   margin-bottom: 130px;
@@ -68,7 +67,7 @@ header {
 }
 .download-apps {
   max-width: 360px;
-  min-width: 340px;
+  min-width: 318px;
   display: flex;
   justify-content: space-between;
 }
@@ -77,14 +76,9 @@ header {
     background-image: none;
   }
   .header-container {
-    width: 320px;
     margin: auto;
     padding-top: 30px;
     align-items: center;
-  }
-  .header-container p,
-  h1 {
-    margin: 30px 1rem;
   }
 }
 /* Description */
@@ -214,7 +208,7 @@ input:checked + label:after {
   }
   .tools-video {
     top: 50%;
-    left: 25.5%;
+    left: 20%;
   }
   iframe {
     width: 250px;
@@ -557,7 +551,6 @@ footer ul li a {
 @media (max-width: 720px) {
   footer {
     flex-direction: column;
-    width: 360px;
   }
   footer a {
     order: 1;
@@ -571,6 +564,9 @@ footer ul li a {
   footer a,
   footer .social-media {
     align-self: flex-start;
+  }
+  footer ul li {
+    margin-right: 19px;
   }
 }
 /* footer */
